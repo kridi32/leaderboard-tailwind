@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leaderboard | A Tailwind CSS Webpage</title>
+    <!-- font awsome cdn -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <!-- tailwind cdn -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-purple-100">
+    <!-- header part with the nav  -->
+    <header class="">
+        <nav class="bg-purple-700 shadow-md ">
+            <div class="container mx-auto flex justify-between">
+                <div class=" p-3 flex items-center  gap-4">
+                    <img class="w-12 " src="images/icons/logo.png" alt="">
+                    <h2 class="font-bold text-white text-3xl">Leaderboard</h2>
+                </div>
+                <div class="flex items-center invisible md:visible ">
+                    <ul class=" flex items-center gap-8 text-white">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Works</a></li>
+                        <li><a href="#"><img src="images/icons/profile.png" alt=""></a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="container mx-auto p-8 bg-white rounded-md my-8">
+            <div class="">
+                <h1 class="text-purple-700 font-bold text-3xl ">Top Players</h1>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-24 my-12">
+                    <div class="flex items-center gap-4">
+                        <img class="w-24" src="images/players/player-1.png" alt="">
+                        <h3 class="text-2xl text-gray-800 font-semibold">Rashid Khan</h3>
+                    </div>
+                    <div class="flex items-center gap-4">
+                        <img class="w-24" src="images/players/player-2.png" alt="">
+                        <h3 class="text-2xl text-gray-800 font-semibold">Virat Kohli</h3>
+                    </div>
+                    <div class="flex items-center gap-4">
+                        <img class="w-24" src="images/players/player-3.png" alt="">
+                        <h3 class="text-2xl text-gray-800 font-semibold">Tamim Iqbal</h3>
+                    </div>
+                    <div class="flex items-center gap-4">
+                        <img class="w-24" src="images/players/player-5.png" alt="">
+                        <h3 class="text-2xl text-gray-800 font-semibold">Babar Azam</h3>
+                    </div>
+                    <div class="flex items-center gap-4">
+                        <img class="w-24" src="images/players/player-4.png" alt="">
+                        <h3 class="text-2xl text-gray-800 font-semibold">David Malan</h3>
+                    </div>
+                    <div class="flex items-center gap-4">
+                        <img class="w-24" src="images/players/player-6.png" alt="">
+                        <h3 class="text-2xl text-gray-800 font-semibold">Steve Smith</h3>
+                    </div>
+                </div>
+                <hr class="border-2 border-gray-500 my-2">
+                <h1 class="text-purple-700 font-bold text-3xl my-8 ">Top Blogs</h1>
+                <div class="grid md:grid-cols-2 grid-cols-1">
+                    <div class="flex lg:flex-row flex-col gap-4 m-4">
+                        <img class="lg:w-1/2 w-full " src="images/blogs/blog-1.png" alt="">
+                        <div class=" flex flex-col justify-between py-4">
+                            <h2 class="text-3xl font-bold text-gray-900">13 of My Favorite
+                                UI/UX Goodies</h2>
+                                <h5 class="text-lg font-medium text-zinc-700">by <span class="text-purple-700">Jamal Khasogi</span></h5>
+                        </div>
+                    </div>
+                    <div class="flex flex-col lg:flex-row gap-4 m-4">
+                        <img class="lg:w-1/2 w-full " src="images/blogs/blog-2.png" alt="">
+                        <div class=" flex flex-col justify-between py-4">
+                            <h2 class="text-3xl font-bold text-gray-900">UI cheat sheet: 
+                                list vs grids</h2>
+                                <h5 class="text-lg font-medium text-zinc-700">by <span class="text-purple-700">Utpal Shuvra</span></h5>
+                        </div>
+                    </div>
+                    <div class="flex flex-col lg:flex-row gap-4 m-4">
+                        <img class="lg:w-1/2 w-full " src="images/blogs/blog-4.png" alt="">
+                        <div class=" flex flex-col justify-between py-4">
+                            <h2 class="text-3xl font-bold text-gray-900">7 typography tips 
+                                for interface design</h2>
+                                <h5 class="text-lg font-medium text-zinc-700">by <span class="text-purple-700">Luis Phillippe</span></h5>
+                        </div>
+                    </div>
+                    <div class="flex flex-col lg:flex-row gap-4 m-4">
+                        <img class="lg:w-1/2 w-full " src="images/blogs/blog-3.png" alt="">
+                        <div class=" flex flex-col justify-between py-4">
+                            <h2 class="text-3xl font-bold text-gray-900">Your logo is 
+                                copied</h2>
+                                <h5 class="text-lg font-medium text-zinc-700">by <span class="text-purple-700">Nicola Tesla</span></h5>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        
+        </section>
+        <section class="container mx-auto p-8 bg-white rounded-md my-8">
+            <div class="">
+                <h1 class="text-purple-700 font-bold text-3xl mb-6">Top Courses</h1>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                    <div class="p-2">
+                        <img src="images/courses/course-1.png" alt="">
+                        <h2 class="text-3xl font-bold text-gray-900 mt-4">React - the complete guide</h2>
+                        <h5 class="text-lg font-medium text-zinc-700"><span class="text-orange-600">Joseph Knight</span></h5>
+                        <div class="mt-8 flex justify-between">
+                            <h5 class="text-gray-500 font-medium flex  items-center">
+                                <i class="fas fa-star text-amber-500"></i>
+                                <i class="fas fa-star text-amber-500"></i>
+                                <i class="fas fa-star text-amber-500"></i>
+                                <i class="fas fa-star text-amber-500"></i>
+                                <i class="fas fa-star text-gray-500"></i>
+                                <span class="ml-2">4.0</span>
+
+                            </h5>
+                            <button><h5 class="font-medium  text-red-700 bg-red-300 rounded-full px-4 py-2"><i class="far fa-clock"></i>  2:00 Hours left</h5></button>
+                        </div>
+                    </div>
+                    <div class="p-2 ">
+                        <img src="images/courses/course-2.png" alt="">
+                        <h2 class="text-3xl font-bold text-gray-900 mt-4">Powerpoint 2022 - the ultimate guide</h2>
+                        <h5 class="text-lg font-medium text-zinc-700"><span class="text-orange-600">Thomas Johnson</span></h5>
+                        <div class="mt-8 flex justify-between">
+                            <h5 class="text-gray-500 font-medium flex  items-center">
+                                <i class="fas fa-star text-amber-500"></i>
+                                <i class="fas fa-star text-amber-500"></i>
+                                <i class="fas fa-star text-amber-500"></i>
+                                <i class="fas fa-star text-amber-500"></i>
+                                <i class="fas fa-star text-amber-500"></i>
+                                <span class="ml-2">5.0</span>
+
+                            </h5>
+                            <button><h5 class="font-medium  text-red-700 bg-red-300 rounded-full px-4 py-2"><i class="far fa-clock"></i>  1:40 Hours left</h5></button>
+                        </div>
+                    </div>
+                    <div class="p-2">
+                        <img src="images/courses/course-3.png" alt="">
+                        <h2 class="text-3xl font-bold text-gray-900 mt-4">Javascript with live project</h2>
+                        <h5 class="text-lg font-medium text-zinc-700"><span class="text-orange-600">Micheal Clarck</span></h5>
+                        <div class="mt-8 flex justify-between">
+                            <h5 class="text-gray-500 font-medium flex  items-center">
+                                <i class="fas fa-star text-amber-500"></i>
+                                <i class="fas fa-star text-amber-500"></i>
+                                <i class="fas fa-star text-amber-500"></i>
+                                <i class="fas fa-star text-gray-500"></i>
+                                <i class="fas fa-star text-gray-500"></i>
+                                <span class="ml-2">3.0</span>
+
+                            </h5>
+                            <button><h5 class="font-medium  text-red-700 bg-red-300 rounded-full px-4 py-2"><i class="far fa-clock"></i>  5:50 Hours left</h5></button>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        
+        </section>
+    </main>
+</body>
+
+</html> 
